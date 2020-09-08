@@ -1,0 +1,31 @@
+{
+  "name": "ui-lib",
+  "version": "1.0.0",
+  "description": "UI components library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eburillo/ui-lib.git"
+  },
+  "author": "Enrique Burillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eburillo/ui-lib/issues"
+  },
+  "homepage": "https://github.com/eburillo/ui-lib#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/react": "^6.0.21",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {}
+}
